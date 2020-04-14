@@ -15,7 +15,7 @@ Clean Data Description
 The clean data contains the mean and standard deviation of each variable merged from the code.
 
 Explanation of R code used to complete assignment
-The Goal was to read “test” and “training data” into R environment. Then read the respective variables to the R environment. Finally, to read the subject index to the R environment.
+The goal was to read â€œtestâ€ and â€œtraining dataâ€ into R environment. Then read the respective variables to the R environment. Finally, to read the subject index to the R environment.
 1. Merges the training and the test set to create one data set. cbind was used to merge test and train x, y, z, and subject data sets. rbind is then used to combine test and train into one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. grepl is used to index variable names for mean() or std().
 3. Uses descriptive activity names to name the acivities in the data set. The lines 9-16 are written to tag new, more comprehensible names, to the data set.  FinalTable and Finalmeanstd is the result.
